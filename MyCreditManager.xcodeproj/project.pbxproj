@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		EB72256629F8E87500EC2CBA /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB72256529F8E87500EC2CBA /* main.swift */; };
+		EB72257429F8F92100EC2CBA /* Credit.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB72257329F8F92100EC2CBA /* Credit.swift */; };
+		EB72257629F8F9AC00EC2CBA /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB72257529F8F9AC00EC2CBA /* Student.swift */; };
+		EB72257829F8FC9500EC2CBA /* Subject.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB72257729F8FC9500EC2CBA /* Subject.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		EB72256229F8E87500EC2CBA /* MyCreditManager */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MyCreditManager; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB72256529F8E87500EC2CBA /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		EB72257329F8F92100EC2CBA /* Credit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credit.swift; sourceTree = "<group>"; };
+		EB72257529F8F9AC00EC2CBA /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		EB72257729F8FC9500EC2CBA /* Subject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subject.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				EB72256529F8E87500EC2CBA /* main.swift */,
+				EB72257529F8F9AC00EC2CBA /* Student.swift */,
+				EB72257729F8FC9500EC2CBA /* Subject.swift */,
+				EB72257329F8F92100EC2CBA /* Credit.swift */,
 			);
 			path = MyCreditManager;
 			sourceTree = "<group>";
@@ -143,6 +152,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB72257829F8FC9500EC2CBA /* Subject.swift in Sources */,
+				EB72257429F8F92100EC2CBA /* Credit.swift in Sources */,
+				EB72257629F8F9AC00EC2CBA /* Student.swift in Sources */,
 				EB72256629F8E87500EC2CBA /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
