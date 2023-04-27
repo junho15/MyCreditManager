@@ -18,6 +18,8 @@
 		EB4F118E29FA3A77004B242F /* Subject.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB72257729F8FC9500EC2CBA /* Subject.swift */; };
 		EB72256629F8E87500EC2CBA /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB72256529F8E87500EC2CBA /* main.swift */; };
 		EB775C5229FA56360020BB6D /* ConsoleService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB775C5129FA56360020BB6D /* ConsoleService.swift */; };
+		EB775C5429FA5C6F0020BB6D /* CreditManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB775C5329FA5C6F0020BB6D /* CreditManager.swift */; };
+		EBE8698F29FAA4E600E48481 /* CreditManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB775C5329FA5C6F0020BB6D /* CreditManager.swift */; };
 		EBE8699029FAA4E900E48481 /* ConsoleService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB775C5129FA56360020BB6D /* ConsoleService.swift */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +45,7 @@
 		EB72257729F8FC9500EC2CBA /* Subject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subject.swift; sourceTree = "<group>"; };
 		EB72257929F8FE2D00EC2CBA /* StudentCreditService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentCreditService.swift; sourceTree = "<group>"; };
 		EB775C5129FA56360020BB6D /* ConsoleService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsoleService.swift; sourceTree = "<group>"; };
+		EB775C5329FA5C6F0020BB6D /* CreditManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +101,7 @@
 				EB72257329F8F92100EC2CBA /* Credit.swift */,
 				EB72257929F8FE2D00EC2CBA /* StudentCreditService.swift */,
 				EB775C5129FA56360020BB6D /* ConsoleService.swift */,
+				EB775C5329FA5C6F0020BB6D /* CreditManager.swift */,
 			);
 			path = MyCreditManager;
 			sourceTree = "<group>";
@@ -219,6 +223,7 @@
 				EBE8699029FAA4E900E48481 /* ConsoleService.swift in Sources */,
 				EB4F117F29FA398F004B242F /* MyCreditManagerTests.swift in Sources */,
 				EB4F118B29FA3A69004B242F /* Student.swift in Sources */,
+				EBE8698F29FAA4E600E48481 /* CreditManager.swift in Sources */,
 				EB4F118C29FA3A6B004B242F /* Credit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -227,6 +232,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB775C5429FA5C6F0020BB6D /* CreditManager.swift in Sources */,
 				EB4F118D29FA3A76004B242F /* StudentCreditService.swift in Sources */,
 				EB4F118929FA3A5D004B242F /* Credit.swift in Sources */,
 				EB775C5229FA56360020BB6D /* ConsoleService.swift in Sources */,
