@@ -1,3 +1,3 @@
-struct Subject {
+struct Subject: Hashable {
     let name: String
 }

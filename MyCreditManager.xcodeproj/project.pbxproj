@@ -11,6 +11,7 @@
 		EB72257429F8F92100EC2CBA /* Credit.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB72257329F8F92100EC2CBA /* Credit.swift */; };
 		EB72257629F8F9AC00EC2CBA /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB72257529F8F9AC00EC2CBA /* Student.swift */; };
 		EB72257829F8FC9500EC2CBA /* Subject.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB72257729F8FC9500EC2CBA /* Subject.swift */; };
+		EB72257A29F8FE2D00EC2CBA /* StudentCreditService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB72257929F8FE2D00EC2CBA /* StudentCreditService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,7 @@
 		EB72257329F8F92100EC2CBA /* Credit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credit.swift; sourceTree = "<group>"; };
 		EB72257529F8F9AC00EC2CBA /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
 		EB72257729F8FC9500EC2CBA /* Subject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subject.swift; sourceTree = "<group>"; };
+		EB72257929F8FE2D00EC2CBA /* StudentCreditService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentCreditService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				EB72257529F8F9AC00EC2CBA /* Student.swift */,
 				EB72257729F8FC9500EC2CBA /* Subject.swift */,
 				EB72257329F8F92100EC2CBA /* Credit.swift */,
+				EB72257929F8FE2D00EC2CBA /* StudentCreditService.swift */,
 			);
 			path = MyCreditManager;
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB72257A29F8FE2D00EC2CBA /* StudentCreditService.swift in Sources */,
 				EB72257829F8FC9500EC2CBA /* Subject.swift in Sources */,
 				EB72257429F8F92100EC2CBA /* Credit.swift in Sources */,
 				EB72257629F8F9AC00EC2CBA /* Student.swift in Sources */,
