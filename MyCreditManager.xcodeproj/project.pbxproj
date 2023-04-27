@@ -22,6 +22,7 @@
 		EBE8698F29FAA4E600E48481 /* CreditManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB775C5329FA5C6F0020BB6D /* CreditManager.swift */; };
 		EBE8699029FAA4E900E48481 /* ConsoleService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB775C5129FA56360020BB6D /* ConsoleService.swift */; };
 		EBE8699229FAAC4800E48481 /* SpyConsoleService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE8699129FAAC4800E48481 /* SpyConsoleService.swift */; };
+		EBE8699429FAAE1C00E48481 /* CreditManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE8699329FAAE1C00E48481 /* CreditManagerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -48,6 +49,7 @@
 		EB775C5129FA56360020BB6D /* ConsoleService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsoleService.swift; sourceTree = "<group>"; };
 		EB775C5329FA5C6F0020BB6D /* CreditManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditManager.swift; sourceTree = "<group>"; };
 		EBE8699129FAAC4800E48481 /* SpyConsoleService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpyConsoleService.swift; sourceTree = "<group>"; };
+		EBE8699329FAAE1C00E48481 /* CreditManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditManagerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,8 +73,9 @@
 		EB4F117D29FA398F004B242F /* MyCreditManagerTests */ = {
 			isa = PBXGroup;
 			children = (
-				EBE8699129FAAC4800E48481 /* SpyConsoleService.swift */,
 				EB4F117E29FA398F004B242F /* MyCreditManagerTests.swift */,
+				EBE8699329FAAE1C00E48481 /* CreditManagerTests.swift */,
+				EBE8699129FAAC4800E48481 /* SpyConsoleService.swift */,
 			);
 			path = MyCreditManagerTests;
 			sourceTree = "<group>";
@@ -221,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBE8699429FAAE1C00E48481 /* CreditManagerTests.swift in Sources */,
 				EB4F118329FA39EF004B242F /* StudentCreditService.swift in Sources */,
 				EB4F118529FA3A0C004B242F /* Subject.swift in Sources */,
 				EBE8699029FAA4E900E48481 /* ConsoleService.swift in Sources */,

@@ -230,7 +230,7 @@ final class StudentCreditServiceTests: XCTestCase {
                 // Then
                 XCTAssert(true)
             } else {
-                XCTFail("studentNotFound 에러가 아닙니다.")
+                XCTFail("creditsNotFound 에러가 아닙니다.")
             }
         }
     }

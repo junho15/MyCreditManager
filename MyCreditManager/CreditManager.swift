@@ -5,13 +5,15 @@ final class CreditManager {
     // MARK: Properties
 
     private let studentCreditService: StudentCreditService
-    private let consoleService: ConsoleService
+    private let consoleService: ConsoleServiceProtocol
 
     init(studentCreditService: StudentCreditService = StudentCreditService(),
-         consoleService: ConsoleService = ConsoleService()) {
+         consoleService: ConsoleServiceProtocol = ConsoleService()) {
         self.studentCreditService = studentCreditService
         self.consoleService = consoleService
     }
+
+    // MARK: Methods
 
     func start() {
         var selectedMenu: Menu?
@@ -22,8 +24,6 @@ final class CreditManager {
         }
         consoleService.printMessage(PromptsMessage.exit)
     }
-
-    // MARK: Methods
 
     private func selectMenu() -> Menu? {
         printMenu()
@@ -182,7 +182,7 @@ extension CreditManager {
         case .success(let result):
             let credits = result.credits.map { ($0.key.name, $0.value.rawValue) }
             let message = SuccessMessage.searchCredits(credits: credits, average: result.average).message
-            print(message)
+            consoleService.printMessage(message)
         case .failure(let error):
             throw error
         }
