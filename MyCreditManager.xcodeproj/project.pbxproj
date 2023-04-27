@@ -21,6 +21,7 @@
 		EB775C5429FA5C6F0020BB6D /* CreditManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB775C5329FA5C6F0020BB6D /* CreditManager.swift */; };
 		EBE8698F29FAA4E600E48481 /* CreditManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB775C5329FA5C6F0020BB6D /* CreditManager.swift */; };
 		EBE8699029FAA4E900E48481 /* ConsoleService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB775C5129FA56360020BB6D /* ConsoleService.swift */; };
+		EBE8699229FAAC4800E48481 /* SpyConsoleService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE8699129FAAC4800E48481 /* SpyConsoleService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -46,6 +47,7 @@
 		EB72257929F8FE2D00EC2CBA /* StudentCreditService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentCreditService.swift; sourceTree = "<group>"; };
 		EB775C5129FA56360020BB6D /* ConsoleService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsoleService.swift; sourceTree = "<group>"; };
 		EB775C5329FA5C6F0020BB6D /* CreditManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditManager.swift; sourceTree = "<group>"; };
+		EBE8699129FAAC4800E48481 /* SpyConsoleService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpyConsoleService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 		EB4F117D29FA398F004B242F /* MyCreditManagerTests */ = {
 			isa = PBXGroup;
 			children = (
+				EBE8699129FAAC4800E48481 /* SpyConsoleService.swift */,
 				EB4F117E29FA398F004B242F /* MyCreditManagerTests.swift */,
 			);
 			path = MyCreditManagerTests;
@@ -222,6 +225,7 @@
 				EB4F118529FA3A0C004B242F /* Subject.swift in Sources */,
 				EBE8699029FAA4E900E48481 /* ConsoleService.swift in Sources */,
 				EB4F117F29FA398F004B242F /* MyCreditManagerTests.swift in Sources */,
+				EBE8699229FAAC4800E48481 /* SpyConsoleService.swift in Sources */,
 				EB4F118B29FA3A69004B242F /* Student.swift in Sources */,
 				EBE8698F29FAA4E600E48481 /* CreditManager.swift in Sources */,
 				EB4F118C29FA3A6B004B242F /* Credit.swift in Sources */,
