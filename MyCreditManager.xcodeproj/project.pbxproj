@@ -17,6 +17,8 @@
 		EB4F118D29FA3A76004B242F /* StudentCreditService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB72257929F8FE2D00EC2CBA /* StudentCreditService.swift */; };
 		EB4F118E29FA3A77004B242F /* Subject.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB72257729F8FC9500EC2CBA /* Subject.swift */; };
 		EB72256629F8E87500EC2CBA /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB72256529F8E87500EC2CBA /* main.swift */; };
+		EB775C5229FA56360020BB6D /* ConsoleService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB775C5129FA56360020BB6D /* ConsoleService.swift */; };
+		EBE8699029FAA4E900E48481 /* ConsoleService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB775C5129FA56360020BB6D /* ConsoleService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -40,6 +42,7 @@
 		EB72257529F8F9AC00EC2CBA /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
 		EB72257729F8FC9500EC2CBA /* Subject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subject.swift; sourceTree = "<group>"; };
 		EB72257929F8FE2D00EC2CBA /* StudentCreditService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentCreditService.swift; sourceTree = "<group>"; };
+		EB775C5129FA56360020BB6D /* ConsoleService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsoleService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +97,7 @@
 				EB72257729F8FC9500EC2CBA /* Subject.swift */,
 				EB72257329F8F92100EC2CBA /* Credit.swift */,
 				EB72257929F8FE2D00EC2CBA /* StudentCreditService.swift */,
+				EB775C5129FA56360020BB6D /* ConsoleService.swift */,
 			);
 			path = MyCreditManager;
 			sourceTree = "<group>";
@@ -212,6 +216,7 @@
 			files = (
 				EB4F118329FA39EF004B242F /* StudentCreditService.swift in Sources */,
 				EB4F118529FA3A0C004B242F /* Subject.swift in Sources */,
+				EBE8699029FAA4E900E48481 /* ConsoleService.swift in Sources */,
 				EB4F117F29FA398F004B242F /* MyCreditManagerTests.swift in Sources */,
 				EB4F118B29FA3A69004B242F /* Student.swift in Sources */,
 				EB4F118C29FA3A6B004B242F /* Credit.swift in Sources */,
@@ -224,6 +229,7 @@
 			files = (
 				EB4F118D29FA3A76004B242F /* StudentCreditService.swift in Sources */,
 				EB4F118929FA3A5D004B242F /* Credit.swift in Sources */,
+				EB775C5229FA56360020BB6D /* ConsoleService.swift in Sources */,
 				EB72256629F8E87500EC2CBA /* main.swift in Sources */,
 				EB4F118E29FA3A77004B242F /* Subject.swift in Sources */,
 				EB4F118A29FA3A61004B242F /* Student.swift in Sources */,
