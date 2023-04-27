@@ -7,11 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB4F117F29FA398F004B242F /* MyCreditManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4F117E29FA398F004B242F /* MyCreditManagerTests.swift */; };
+		EB4F118329FA39EF004B242F /* StudentCreditService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB72257929F8FE2D00EC2CBA /* StudentCreditService.swift */; };
+		EB4F118529FA3A0C004B242F /* Subject.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB72257729F8FC9500EC2CBA /* Subject.swift */; };
+		EB4F118929FA3A5D004B242F /* Credit.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB72257329F8F92100EC2CBA /* Credit.swift */; };
+		EB4F118A29FA3A61004B242F /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB72257529F8F9AC00EC2CBA /* Student.swift */; };
+		EB4F118B29FA3A69004B242F /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB72257529F8F9AC00EC2CBA /* Student.swift */; };
+		EB4F118C29FA3A6B004B242F /* Credit.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB72257329F8F92100EC2CBA /* Credit.swift */; };
+		EB4F118D29FA3A76004B242F /* StudentCreditService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB72257929F8FE2D00EC2CBA /* StudentCreditService.swift */; };
+		EB4F118E29FA3A77004B242F /* Subject.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB72257729F8FC9500EC2CBA /* Subject.swift */; };
 		EB72256629F8E87500EC2CBA /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB72256529F8E87500EC2CBA /* main.swift */; };
-		EB72257429F8F92100EC2CBA /* Credit.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB72257329F8F92100EC2CBA /* Credit.swift */; };
-		EB72257629F8F9AC00EC2CBA /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB72257529F8F9AC00EC2CBA /* Student.swift */; };
-		EB72257829F8FC9500EC2CBA /* Subject.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB72257729F8FC9500EC2CBA /* Subject.swift */; };
-		EB72257A29F8FE2D00EC2CBA /* StudentCreditService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB72257929F8FE2D00EC2CBA /* StudentCreditService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +32,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		EB4F117C29FA398F004B242F /* MyCreditManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyCreditManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB4F117E29FA398F004B242F /* MyCreditManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCreditManagerTests.swift; sourceTree = "<group>"; };
 		EB72256229F8E87500EC2CBA /* MyCreditManager */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MyCreditManager; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB72256529F8E87500EC2CBA /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		EB72257329F8F92100EC2CBA /* Credit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credit.swift; sourceTree = "<group>"; };
@@ -36,6 +43,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		EB4F117929FA398F004B242F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EB72255F29F8E87500EC2CBA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -46,10 +60,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EB4F117D29FA398F004B242F /* MyCreditManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				EB4F117E29FA398F004B242F /* MyCreditManagerTests.swift */,
+			);
+			path = MyCreditManagerTests;
+			sourceTree = "<group>";
+		};
 		EB72255929F8E87500EC2CBA = {
 			isa = PBXGroup;
 			children = (
 				EB72256429F8E87500EC2CBA /* MyCreditManager */,
+				EB4F117D29FA398F004B242F /* MyCreditManagerTests */,
 				EB72256329F8E87500EC2CBA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -58,6 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				EB72256229F8E87500EC2CBA /* MyCreditManager */,
+				EB4F117C29FA398F004B242F /* MyCreditManagerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -77,6 +101,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		EB4F117B29FA398F004B242F /* MyCreditManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB4F118229FA398F004B242F /* Build configuration list for PBXNativeTarget "MyCreditManagerTests" */;
+			buildPhases = (
+				EB4F117829FA398F004B242F /* Sources */,
+				EB4F117929FA398F004B242F /* Frameworks */,
+				EB4F117A29FA398F004B242F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyCreditManagerTests;
+			productName = MyCreditManagerTests;
+			productReference = EB4F117C29FA398F004B242F /* MyCreditManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		EB72256129F8E87500EC2CBA /* MyCreditManager */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = EB72256929F8E87500EC2CBA /* Build configuration list for PBXNativeTarget "MyCreditManager" */;
@@ -105,6 +146,9 @@
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
+					EB4F117B29FA398F004B242F = {
+						CreatedOnToolsVersion = 14.3;
+					};
 					EB72256129F8E87500EC2CBA = {
 						CreatedOnToolsVersion = 14.3;
 					};
@@ -124,9 +168,20 @@
 			projectRoot = "";
 			targets = (
 				EB72256129F8E87500EC2CBA /* MyCreditManager */,
+				EB4F117B29FA398F004B242F /* MyCreditManagerTests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB4F117A29FA398F004B242F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
 		EB72257229F8F79200EC2CBA /* SwiftLint */ = {
@@ -151,21 +206,61 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		EB4F117829FA398F004B242F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB4F118329FA39EF004B242F /* StudentCreditService.swift in Sources */,
+				EB4F118529FA3A0C004B242F /* Subject.swift in Sources */,
+				EB4F117F29FA398F004B242F /* MyCreditManagerTests.swift in Sources */,
+				EB4F118B29FA3A69004B242F /* Student.swift in Sources */,
+				EB4F118C29FA3A6B004B242F /* Credit.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EB72255E29F8E87500EC2CBA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB72257A29F8FE2D00EC2CBA /* StudentCreditService.swift in Sources */,
-				EB72257829F8FC9500EC2CBA /* Subject.swift in Sources */,
-				EB72257429F8F92100EC2CBA /* Credit.swift in Sources */,
-				EB72257629F8F9AC00EC2CBA /* Student.swift in Sources */,
+				EB4F118D29FA3A76004B242F /* StudentCreditService.swift in Sources */,
+				EB4F118929FA3A5D004B242F /* Credit.swift in Sources */,
 				EB72256629F8E87500EC2CBA /* main.swift in Sources */,
+				EB4F118E29FA3A77004B242F /* Subject.swift in Sources */,
+				EB4F118A29FA3A61004B242F /* Student.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		EB4F118029FA398F004B242F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wanted.MyCreditManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EB4F118129FA398F004B242F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wanted.MyCreditManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		EB72256729F8E87500EC2CBA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -302,6 +397,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		EB4F118229FA398F004B242F /* Build configuration list for PBXNativeTarget "MyCreditManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB4F118029FA398F004B242F /* Debug */,
+				EB4F118129FA398F004B242F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		EB72255D29F8E87500EC2CBA /* Build configuration list for PBXProject "MyCreditManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
